@@ -11,6 +11,7 @@ public class homework03 {
         // 아이스크림 총 구매 개수만큼 질문 반복, 아이스크림의 이름 및 가격 입력
         List<String> perchaseList = new ArrayList<String>(); // 아이스크림 리스트
         List<String > priceList = new ArrayList<String>();   // 가격 리스트
+        String YoN = "y";
 
         System.out.print("총 몇 개의 아이스크림을 구매하시겠습니까? ");
         int total = scanner.nextInt();
